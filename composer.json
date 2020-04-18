@@ -10,5 +10,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Parax\\UserInfomatin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Parax\\UserInfomatin\\Providers\\UserInformationServiceProvider"
+            ]
+        }
+    }
 }
