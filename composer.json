@@ -1,0 +1,14 @@
+{
+    "name": "parax/user-information",
+    "description": "test user",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hamed sh",
+            "email": "megahamed22@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
