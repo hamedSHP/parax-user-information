@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Parax\UserInformation\Providers;
+namespace Parax\User\Information\Providers;
 
 
 use Illuminate\Support\ServiceProvider;

@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Parax\\UserInfomatin\\": "src/"
+            "Parax\\User\\Information\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Parax\\UserInfomatin\\Providers\\UserInformationServiceProvider"
+                "Parax\\User\\Information\\Providers\\UserInformationServiceProvider"
             ]
         }
     }
