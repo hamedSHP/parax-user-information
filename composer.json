@@ -22,5 +22,10 @@
                 "Parax\\User\\Information\\Providers\\UserInformationServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "remove-user-model": [
+            "@php -r \"file_exists('app/User.php') || unlink('app/User.php');\""
+        ]
     }
 }
