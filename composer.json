@@ -24,8 +24,8 @@
         }
     },
     "scripts": {
-        "remove-user-model": [
-            "@php -r \"file_exists('./../../../app/User.php') && unlink('./../../../app/User.php');\" --no-interaction"
+        "pre-package-install": [
+            "@php -r \"file_exists('./../../../app/User.php') && unlink('./../../../app/User.php');\""
         ]
     }
 }
