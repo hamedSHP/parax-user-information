@@ -24,7 +24,7 @@
         }
     },
     "scripts": {
-        "pre-package-install": [
+        "post-install-cmd": [
             "@php -r \"file_exists('./../../../app/User.php') && unlink('./../../../app/User.php');\""
         ]
     }
