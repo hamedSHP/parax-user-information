@@ -25,7 +25,7 @@
     },
     "scripts": {
         "remove-user-model": [
-            "@php -r \"file_exists('app/User.php') && unlink('app/User.php');\""
+            "@php -r \"file_exists('./../../../app/User.php') && unlink('./../../../app/User.php');\""
         ]
     }
 }
